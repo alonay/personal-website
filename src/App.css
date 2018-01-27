@@ -1,0 +1,208 @@
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bannerimage {
+  background-image: url(https://mail.google.com/mail/u/0/?ui=2&ik=6db1dd5875&view=fimg&th=160d69df6de2c44e&attid=0.1.1&disp=emb&attbid=ANGjdJ_FJjKYbCIw4XX6Gm0HCcPhoLuf2UHDLvDp4IhJpxpGqmiMbg0Qmbu3BUwEsZTbWo-jwB0WRoYb7Wb01Hxw4gqc18TX9Romhvjy2OXna6xxemWUxCSAyKgdguk&sz=s0-l75-ft&ats=1515429181695&rm=160d69df6de2c44e&zw&atsh=1);
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
+}
+
+.bannerimageHover {
+  -webkit-filter: grayscale(10%);
+  filter: grayscale(10%)
+}
+
+.bio{
+  background-color: #FFFAFA;
+  height: 200px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Brush Script MT", cursive;
+
+}
+
+.BioWords{
+
+  height: 150px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-size: 85%;
+  font-family: none;
+  margin-left: 10%;
+  margin-right: 10%
+
+
+
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 5%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 220%;
+    transform: rotate(90deg);
+	   transform-origin: left top 0;
+     letter-spacing: 60px;
+     /*position: fixed;
+     top: 25px;*/
+}
+
+.hero-text.Fixed{
+
+}
+.slogan{
+  text-align: right;
+  position: absolute;
+  top: 1%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  transform-origin: left top 0;
+  letter-spacing: 3px;
+  font-family: "Brush Script MT", cursive;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2.2px;
+}
+
+.learnButton{
+  position: absolute;
+  font-family: "Brush Script MT", cursive;
+  top: 80%;
+  left: 40%;
+  color: none;
+  background-color: transparent; /* Green */
+  border: pink;
+  color: black;
+  border: 2px solid pink;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 20px;
+  cursor: pointer
+
+}
+.learnButton:hover {
+  #bannerimage: blue
+
+}
+
+.contact1{
+  position: absolute;
+  font-family: "Brush Script MT", cursive;
+  top: 100%;
+  left: 43%;
+  color: none;
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  border: 2px solid pink;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 1000px;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  cursor: pointer
+}
+
+.contact2{
+  position: absolute;
+  font-family: "Brush Script MT", cursive;
+  top: 100%;
+  left: 55%;
+  color: none;
+  background-color: transparent; /* Green */
+  border: none;
+  color: white;
+  border: 2px solid pink;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 1000px;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  cursor: pointer
+}
+.project1image{
+  margin-left: 12%;
+  clear:right;
+  float: top;
+  margin:5px 2px 10px 15px;
+}
+
+.project2image{
+  border:2px solid #000000;
+clear:right;
+float: top;
+margin:5px 2px 10px 15px;
+
+}
+
+.projects{
+
+  height: 200px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Brush Script MT", cursive;
+}
+
+.tableimg{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
+}
+
+.tableimg:hover{
+  -webkit-filter: grayscale(10%);
+  filter: grayscale(10%);
+  cursor: pointer
+}
