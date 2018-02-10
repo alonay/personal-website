@@ -5,6 +5,19 @@ class Bio extends React.Component{
     return(
       <div className= "bio">
       <h1>From Sales to Rails: About Me</h1>
+      <ul id="language-points">
+        <li>Ruby</li>
+        <li>Rails</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>jQuery</li>
+        <li>Git</li>
+        <li>SQL</li>
+        <li>Postgres</li>
+        <li>Test-Driven Dev</li>
+        <li>Object-Oriented Design</li>
+        <li>RESTful Conventions</li>
+      </ul>
       <p className= "BioWords"> I am a full stack Software Engineer with a passion for communicating the power of technology through projects and presentations. After grauating Franklin and Marshall College,
       I had two strong years in sales at a fast-paced tech startup. I have always loved technology,
       and was fascinated with the ability of the small tech team at the startup to work with me to build solutions

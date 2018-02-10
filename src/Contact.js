@@ -34,7 +34,7 @@ class Contact extends React.Component{
   render(){
     let linkedInandGitHubShow = <div>
       <a href="https://www.linkedin.com/in/alonayeheskel/" target="_blank"><button className="contact1" >LinkedIn</button></a>
-      <button className="contact2">Email</button>
+      <a href="mailto:alona.yeheskel@gmail.com" ><button className="contact2">Email</button></a>
     </div>
 
     return (
