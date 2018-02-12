@@ -13,11 +13,14 @@ class Contact extends React.Component{
     this.setState({
       clicked: !this.state.clicked
     }, () => {
-      if (this.state.clicked === true){
-      const contact = document.getElementById('contact')
-      contact && contact.scrollIntoView({
-      behavior: 'smooth'
-    })
+      if (this.state.clicked === true) {
+        const contact = document.getElementById('contact')
+        contact && contact.scrollIntoView({
+          behavior: 'smooth'
+        })
+        $("#hero").addClass("extended-hero")
+      } else {
+        $("#hero").removeClass("extended-hero")
       }
     })
   }
@@ -32,7 +35,7 @@ class Contact extends React.Component{
   }
 
   render(){
-    let linkedInandGitHubShow = <div>
+    let linkedInandGitHubShow = <div className="contact-buttons">
       <a href="https://www.linkedin.com/in/alonayeheskel/" target="_blank"><button className="contact1" >LinkedIn</button></a>
       <a href="mailto:alona.yeheskel@gmail.com" ><button className="contact2">Email</button></a>
     </div>
