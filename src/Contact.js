@@ -42,6 +42,7 @@ class Contact extends React.Component{
 
     return (
       <div>
+        {this.state.clicked && linkedInandGitHubShow}
         <button
           className="learnButton"
           id="contact"
@@ -49,7 +50,7 @@ class Contact extends React.Component{
           onMouseEnter={this.appear}
           onMouseLeave={this.disappear}
         >Connect With Me</button>
-        {this.state.clicked && linkedInandGitHubShow}
+
       </div>
     )
   }

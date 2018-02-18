@@ -48,16 +48,17 @@
 }
 
 .bannerimage {
-  background-image: url('profile-pic.jpeg');
-  background-attachment: fixed;
+  background: url('profile-pic.jpeg') no-repeat right;
   width: 100%;
   height: 700px;
-  background-position: right;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bannerimageHover {
@@ -126,7 +127,7 @@
 .learnButton {
   position: absolute;
   font-family: "Brush Script MT", cursive;
-  top: 80%;
+  top: 75%;
   left: 40%;
   color: none;
   background-color: transparent; /* Green */
@@ -242,6 +243,7 @@
   .bannerimage {
     height: 100vh;
     background-position: center;
+
   }
 
   .bio {
