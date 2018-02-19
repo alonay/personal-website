@@ -27,41 +27,42 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-#language-points{
+
+#language-points {
   font-family: none;
   font-size: 60%;
   margin-left: -5%;
   letter-spacing: 1px
   /*text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;*/
 }
- #language-points li{
-   display:inline-block;
- }
- #language-points li:before {
+
+#language-points li {
+  display:inline-block;
+}
+
+#language-points li:before {
 	content: '\00a0\2022\00a0\00a0';
 	color:#999;
 	color:rgba(0,0,0,0.5);
-	font-size:11px;
+	font-size:13px;
 }
+
 #language-points li:first-child:before {
 	content: '';
 }
 
-.bannerimage {
+.banner-image {
   background: url('profile-pic.jpeg') no-repeat right;
-  width: 100%;
-  height: 700px;
-  background-size: cover;
-  position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(100%);
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
 }
 
-.bannerimageHover {
+.banner-imageHover {
   -webkit-filter: grayscale(10%);
   filter: grayscale(10%)
 }
@@ -81,10 +82,18 @@
   padding: 20px;
   color: black;
   text-align: center;
-  font-size: 85%;
+  font-size: .9em;
   font-family: none;
   margin-left: 10%;
   margin-right: 10%
+}
+
+.contact {
+  margin: auto;
+  left: 25%;
+  position: absolute;
+  top: 85%;
+  width: 50%;
 }
 
 .hero-text {
@@ -98,12 +107,79 @@
   transform: rotate(90deg);
   transform-origin: left top 0;
   letter-spacing: 60px;
-  /*position: fixed;
-  top: 25px;*/
 }
 
 .hero-text.Fixed {
 
+}
+
+.contact-button {
+  background-color: transparent; /* Green */
+  border: 2px solid pink;
+  border-radius: 1000px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  width: 140px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.learn-button {
+  font-family: "Brush Script MT", cursive;
+  background-color: transparent; /* Green */
+  border: 2px solid pink;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 50px;
+  margin: auto;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.email {
+  margin-left: 20px;
+}
+
+.extended-hero {
+  height: 105vh;
+}
+
+.project1image {
+  margin-left: 12%;
+  clear:right;
+  float: top;
+  margin:5px 2px 10px 15px;
+}
+
+.project2image {
+  border:2px solid #000000;
+  clear:right;
+  float: top;
+  margin:5px 2px 10px 15px;
+}
+
+.projects {
+  height: 200px;
+  padding: 95px;
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Brush Script MT", cursive;
+  margin-left: 10%
 }
 
 .slogan {
@@ -124,94 +200,6 @@
 	line-height: 2.2px;
 }
 
-.learnButton {
-  position: absolute;
-  font-family: "Brush Script MT", cursive;
-  top: 75%;
-  left: 40%;
-  color: none;
-  background-color: transparent; /* Green */
-  border: pink;
-  color: black;
-  border: 2px solid pink;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-  border-radius: 20px;
-  cursor: pointer
-
-}
-.learnButton:hover {
-  #bannerimage: blue
-
-}
-
-.contact1 {
-  position: absolute;
-  font-family: "Brush Script MT", cursive;
-  top: 100%;
-  left: 43%;
-  color: none;
-  background-color: transparent; /* Green */
-  border: none;
-  color: white;
-  border: 2px solid pink;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  border-radius: 1000px;
-  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-  cursor: pointer
-}
-
-.contact2 {
-  position: absolute;
-  font-family: "Brush Script MT", cursive;
-  top: 100%;
-  left: 55%;
-  color: none;
-  background-color: transparent; /* Green */
-  border: none;
-  color: white;
-  border: 2px solid pink;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  border-radius: 1000px;
-  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-  cursor: pointer
-}
-
-.project1image {
-  margin-left: 12%;
-  clear:right;
-  float: top;
-  margin:5px 2px 10px 15px;
-}
-
-.project2image {
-  border:2px solid #000000;
-  clear:right;
-  float: top;
-  margin:5px 2px 10px 15px;
-}
-
-.projects {
-  height: 200px;
-  padding: 20px;
-  color: black;
-  text-align: center;
-  font-size: 100%;
-  font-family: "Brush Script MT", cursive;
-  margin-left: 10%
-}
-
 .tableimg-static {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -226,24 +214,15 @@
   opacity:0
 }
 
-.project-des {
-  height: 150px;
-  padding: 20px;
-  color: black;
-  text-align: center;
-  font-size: 85%;
-  font-family: none;
-}
 
 .table-back {
   background-color: #FFFAFA;
 }
 
 @media screen and (max-width: 1020px) {
-  .bannerimage {
+  .banner-image {
     height: 100vh;
     background-position: center;
-
   }
 
   .bio {
@@ -258,18 +237,13 @@
     width: 85%;
   }
 
+  .contact {
+    left: 5%;
+    top: 75%;
+  }
+
   .contact-buttons {
-    margin-left: 20px;
-
-  }
-
-  .contact1 {
-    left: 10%;
-    margin-right: 20px;
-  }
-
-  .contact2 {
-    left: 50%;
+    margin-left: 70%;
   }
 
   .extended-hero {
@@ -286,12 +260,16 @@
     padding: 0;
   }
 
-  .learnButton {
+  .learn-button {
     font-size: 40px;
     height: 120px;
-    left: 10%;
-    top: 75%;
     width: 165px;
+  }
+
+  .linkedin {
+    /*left: 10%;*/
+    /*margin-right: 20px;*/
+    /*top: 100%;*/
   }
 
   .project-table {
@@ -323,5 +301,11 @@
     text-align: left;
     top: 10%;
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-buttons {
+    margin-left: 80%;
   }
 }

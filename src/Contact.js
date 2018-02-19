@@ -36,21 +36,28 @@ class Contact extends React.Component{
 
   render(){
     let linkedInandGitHubShow = <div className="contact-buttons">
-      <a href="https://www.linkedin.com/in/alonayeheskel/" target="_blank"><button className="contact1" >LinkedIn</button></a>
-      <a href="mailto:alona.yeheskel@gmail.com" ><button className="contact2">Email</button></a>
+      <a href="https://www.linkedin.com/in/alonayeheskel/" target="_blank">
+        <button className="contact-button linkedin" >
+          LinkedIn
+        </button>
+      </a>
+      <a href="mailto:alona.yeheskel@gmail.com" >
+        <button className="contact-button email">
+          Email
+        </button>
+      </a>
     </div>
 
     return (
-      <div>
-        {this.state.clicked && linkedInandGitHubShow}
+      <div className="contact">
         <button
-          className="learnButton"
+          className="learn-button"
           id="contact"
           onClick={this.handleClick}
           onMouseEnter={this.appear}
           onMouseLeave={this.disappear}
         >Connect With Me</button>
-
+        {this.state.clicked && linkedInandGitHubShow}
       </div>
     )
   }
