@@ -27,11 +27,11 @@ class Contact extends React.Component{
 
 
   appear = (event) => {
-    $("#hero").addClass("bannerimageHover")
+    $("#hero").addClass("banner-image-hover")
   }
 
   disappear = (event) => {
-    $("#hero").removeClass("bannerimageHover")
+    $("#hero").removeClass("banner-image-hover")
   }
 
   render(){

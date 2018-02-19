@@ -62,7 +62,7 @@
   -webkit-filter: grayscale(100%);
 }
 
-.banner-imageHover {
+.banner-image-hover {
   -webkit-filter: grayscale(10%);
   filter: grayscale(10%)
 }
@@ -155,7 +155,7 @@
 }
 
 .extended-hero {
-  height: 105vh;
+  height: 120vh;
 }
 
 .project1image {
@@ -221,8 +221,9 @@
 
 @media screen and (max-width: 1020px) {
   .banner-image {
-    height: 100vh;
+    background-attachment: scroll;
     background-position: center;
+    height: 100vh;
   }
 
   .bio {
@@ -247,7 +248,7 @@
   }
 
   .extended-hero {
-    height: 115vh;
+    height: 120vh;
   }
 
   .hero-text H1 {
