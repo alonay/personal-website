@@ -16,19 +16,22 @@ class Projects extends React.Component{
                 <label>StarSim</label>
                 <br/>
                 <ul id="language-points">
-                  <li>Javascript</li>
+                  <li>JavaScript</li>
                   <li>React</li>
-                  <li>Postgres</li>
-                  <li>Object-Oriented Design</li>
-                  <li>RESTful Conventions</li>
+                  <li>PostgreSQL</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                  <li>API built in Rails</li>
+
                 </ul>
                 <div className="BioWords">
 
-                The world of eSports is blowing up, filling arenas around the world
-                with fans coming to watch professional video gamers. Among the most popular eSports
-                is StarCraft, in which keyboard speed is essential. We focus on this one skill to help
+                The world of eSports is blowing up, filling arenas with fans coming to watch
+                professional video gamers. Among the most popular eSports is StarCraft,
+                in which keyboard speed is essential. We focus on this one skill to help
                 gamers master it and improve even faster. The scientific theory behind StarSim is
-                called deliberate practice. Who doesn’t love great keyboard skills? 
+                called deliberate practice.
+                Who doesn’t love great keyboard skills?
 
                 </div>
               </td>
@@ -39,7 +42,7 @@ class Projects extends React.Component{
                 <img className="tableimg-active" src="https://media.giphy.com/media/xT1R9FoR1VIKNtFYSk/giphy.gif"width="300" height="200"alt="description here"/>
               </td>
               <td>
-                <label>Pixed Up</label>
+                <label>PixedUp</label>
                 <br/>
                 <ul id="language-points">
                   <li>Bootstrap</li>
@@ -47,15 +50,14 @@ class Projects extends React.Component{
                   <li>Ruby</li>
                   <li>Rails</li>
                   <li>SQL</li>
-                  <li>Object-Oriented Design</li>
                   <li>RESTful Conventions</li>
                 </ul>
                 <div className="BioWords">
-                  A picture is worth 1,000 words and a shot at love! Using Artificial Intelligence,
+                  A picture is worth 1,000 words and a shot at love! Using artificial intelligence,
                   we match you based on your pictures. Tired of shallow dating apps? Tired of fake bios?
                   Tired of being tired? Let PixedUp fix you up!  We will find people who like what you like.
                   Let us show you the way, through your pictures.
-                  Turn the 1,000 words into those 3 words that you have been waiting to hear.
+                  Turn the 1,000 words into those 3 little words that you have been waiting to hear.
                 </div>
               </td>
             </tr>
@@ -69,23 +71,25 @@ class Projects extends React.Component{
                 <label>DateABase</label>
                 <br/>
                 <ul id="language-points">
-                  <li>Bootstrap</li>
-                  <li>Web Scarping</li>
+                  <li>Web Scraping</li>
                   <li>React</li>
-                  <li>Simantic UI</li>
-                  <li>Javascript</li>
-                  <li>SQL</li>
-                  <li>Object-Oriented Design</li>
+                  <li>JavaScript</li>
+                  <li>Semantic UI</li>
+
+
+
+
                 </ul>
                 <div className="BioWords">
 
-                  This is the best way to keep track of a group of people! Say goodbye to excel to keep track of your interview candidates,
-                  sorority recruitment potential members, and even your online dates (like in the example to the left,
-                  who went on a date with Kim K). DateABase allows you to choose the characteristics that are
-                  important to your use case and you can filter by any category you add. Choose to store anything
-                  from their name to their fit for the job or sorority. But wait... what if you do not remember
-                  what your candidate looks like? No Problem! Store their instagram name to see their
-                  instagram pictures!
+
+                Say goodbye to Excel keeping track of your interview candidates,
+                sorority recruitment members, and even your online dates (like in the example to the left...
+                the user who went on a date with Kim K). DateABase allows you to choose the characteristics that are
+                important to you, then filter by any category you desire. Choose to store anything
+                from names to ages to ratings. But wait... what if you do not remember
+                what your candi/date looks like? No Problem! Store their Instagram name to see their  Instagram pictures!
+
 
                 </div>
               </td>

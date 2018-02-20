@@ -56,7 +56,7 @@ class Contact extends React.Component{
           onClick={this.handleClick}
           onMouseEnter={this.appear}
           onMouseLeave={this.disappear}
-        >Connect With Me</button>
+        >Connect with Me</button>
         {this.state.clicked && linkedInandGitHubShow}
       </div>
     )

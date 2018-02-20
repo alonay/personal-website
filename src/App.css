@@ -82,10 +82,10 @@
   padding: 20px;
   color: black;
   text-align: center;
-  font-size: .9em;
+  font-size: .95em;
   font-family: none;
   margin-left: 10%;
-  margin-right: 10%
+  margin-right: 5%
 }
 
 .contact {
@@ -99,11 +99,11 @@
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 5%;
-  left: 100%;
+  top: 8%;
+  left: 105%;
   transform: translate(-50%, -50%);
   color: pink;
-  font-size: 220%;
+  font-size: 350%;
   transform: rotate(90deg);
   transform-origin: left top 0;
   letter-spacing: 60px;
@@ -186,14 +186,13 @@
   text-align: right;
   position: absolute;
   top: 1%;
-  left: 28%;
+  left: 31.5%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 350%;
   transform-origin: left top 0;
   letter-spacing: 3px;
   font-family: "Brush Script MT", cursive;
-	font-size: 28px;
+	font-size: 34px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -272,6 +271,10 @@
     /*margin-right: 20px;*/
     /*top: 100%;*/
   }
+  .hero-text {
+    font-size: 2.5em;
+    margin: 0em;
+  }
 
   .project-table {
     height: auto;
@@ -296,7 +299,7 @@
   }
 
   .slogan {
-    left: 35%;
+    left: 32%;
     line-height: 32.2px;
     padding-left: 10%;
     text-align: left;

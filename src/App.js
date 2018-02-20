@@ -12,7 +12,7 @@ class App extends Component {
         <div className="hero-text">
         <h1>ALONA</h1>
       </div>
-      <h2 className="slogan">When You Love the Sound of Tech (and The City)</h2>
+      <h2 className="slogan">When You Love the Sound of Tech (and the City)</h2>
       <Contact/>
       <Bio/>
       <Projects/>
